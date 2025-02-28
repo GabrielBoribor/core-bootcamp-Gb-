@@ -7,7 +7,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const contract = await hre.ethers.deployContract("Viking", [1000000000000000000000n]);
+  const contract = await hre.ethers.deployContract("Viking");
 
   await contract.waitForDeployment();
 

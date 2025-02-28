@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract Katumbok is ERC20 {
-    constructor(uint256 initialSupply) ERC20("Katumbok", "KTK") {
+contract Viking is ERC20 {
+    constructor(uint256 initialSupply) ERC20("Viking", "VK") {
         _mint(msg.sender, initialSupply);
     }
 
